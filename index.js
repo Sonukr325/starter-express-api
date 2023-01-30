@@ -1,4 +1,5 @@
 const express = require('express')
+const puppeteer = require("puppeteer-core");
 const app = express()
 app.all('/', (req, res) => {
     console.log("Just got a request!")
