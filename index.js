@@ -2,7 +2,7 @@ const express = require('express')
 const puppeteer = require("puppeteer-core");
 const app = express()
 const {executablePath} = require('puppeteer-core')
-app.all('/', (req, res) => {
+app.all('/', async (req, res) => {
 let options = {headless: true,
     args: [
       "--no-sandbox",
