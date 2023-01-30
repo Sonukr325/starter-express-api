@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
+    "puppeteer-core": "^5.3.1",
     "express": "^4.17.1"
   }
 }
